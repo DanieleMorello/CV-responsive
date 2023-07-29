@@ -1,0 +1,79 @@
+/* ROOT */
+:root {
+  --cv-light: #ffffff;
+  --cv-dark: #000000;
+  --cv-primary: #4150b5;
+  --cv-secondary: #00618a;
+  --cv-background: #6da7cc;
+  --cv-text-shadow: #ff0000;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cv-background);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 1rem;
+  background-color: var(--cv-secondary);
+  color: var(--cv-light);
+  padding: 1rem;
+}
+
+h2:hover {
+  color: #9c9c9c;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: var(--cv-primary);
+  text-shadow: 1px 1px 0px var(--cv-text-shadow);
+}
+
+h4 {
+  border-radius: 0.5rem;
+  background-color: var(--cv-secondary);
+  color: var(--cv-light);
+  padding: 0.5rem;
+  box-shadow: 0 7px 10px -6px var(--cv-primary);
+}
+
+h4:hover {
+  color: var(--cv-dark);
+  transform: scale(1.1);
+}
+
+.debug {
+  border: 2px solid red;
+}
+
+header {
+  text-align: center;
+}
+
+[alt="Daniele Morello"] {
+  border: 0.5rem solid var(--cv-secondary);
+}
+
+[alt="Gmail"],
+[alt="Linkedin"],
+[alt="Github"] {
+  width: 4rem;
+}
+
+figcaption {
+  font-size: small;
+}
