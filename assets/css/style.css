@@ -77,3 +77,18 @@ header {
 figcaption {
   font-size: small;
 }
+
+@media screen and (min-width: 767px) {
+  /* h1 {
+    width: 1rem;
+  } */
+
+  figure:not(#skills figure) {
+    height: 1rem;
+  }
+
+  [alt="Daniele Morello"] {
+    height: 21.6rem;
+    margin-right: 17rem;
+  }
+}
